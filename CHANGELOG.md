@@ -42,5 +42,18 @@ and this project adheres to [Semantic Versioning]
 - npm run format - Auto-format code
 - npm run docs - Generate documentation
 - npm run quality - Run all checks
-  [Unreleased]: https://github.com/yourusername/lab3-js-oop-dice-docs-and-design/v0.3.0...HEAD
-  [0.3.0]: https://github.com/yourusername/lab3-js-oop-dice-docs-and-design/releases/tag/v0.3.0
+  [Unreleased]: https://github.com/Aman-Thorat/lab3-js-oop-dice-docs-and-design/v0.3.0...HEAD
+  [0.3.0]: https://github.com/Aman-Thorat/lab3-js-oop-dice-docs-and-design/releases/tag/v0.3.0
+
+## [0.4.0] - 2025-09-22
+### Added
+- Command Line Interface (CLI) for dice rolling
+- TextRenderer for human-readable output
+- JsonRenderer for machine-readable output
+- DiceRoller with dependency injection
+- Multiple roll statistics
+- Comprehensive CLI help and examples
+### Architecture
+- Application layer with DiceRoller
+- Strategy pattern for rendering
+- Dependency injection for flexibility
